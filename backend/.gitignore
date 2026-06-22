@@ -1,0 +1,11 @@
+__pycache__/
+.ipynb_checkpoints/
+outputs/
+output/
+*.zip
+*.safetensors
+*.bin
+*.pt
+*.pth
+wandb/
+runs/

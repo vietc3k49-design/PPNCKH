@@ -1,0 +1,15 @@
+torch
+transformers
+accelerate
+peft
+bitsandbytes
+datasets
+sentencepiece
+tiktoken
+tqdm
+seqeval
+pandas
+numpy
+matplotlib
+seaborn
+safetensors

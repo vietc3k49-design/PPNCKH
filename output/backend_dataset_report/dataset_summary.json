@@ -1,0 +1,856 @@
+{
+  "paths": [
+    {
+      "dataset": "vimedner",
+      "split": "train",
+      "path": "..\\vimedner\\train_fixed_verified.jsonl",
+      "exists": true,
+      "size_mb": 3.93
+    },
+    {
+      "dataset": "vimedner",
+      "split": "dev",
+      "path": "..\\vimedner\\dev_fixed_verified.jsonl",
+      "exists": true,
+      "size_mb": 1.33
+    },
+    {
+      "dataset": "vimedner",
+      "split": "test",
+      "path": "..\\vimedner\\test_fixed_verified.jsonl",
+      "exists": true,
+      "size_mb": 1.31
+    },
+    {
+      "dataset": "vimq",
+      "split": "train",
+      "path": "..\\vimq\\train_fixed_verified.jsonl",
+      "exists": true,
+      "size_mb": 3.56
+    },
+    {
+      "dataset": "vimq",
+      "split": "dev",
+      "path": "..\\vimq\\dev_fixed_verified.jsonl",
+      "exists": true,
+      "size_mb": 0.51
+    },
+    {
+      "dataset": "vimq",
+      "split": "test",
+      "path": "..\\vimq\\test_fixed_verified.jsonl",
+      "exists": true,
+      "size_mb": 0.53
+    }
+  ],
+  "summary": [
+    {
+      "dataset": "vimedner",
+      "split": "train",
+      "samples": 4576,
+      "entities": 11709,
+      "empty_samples": 0,
+      "avg_entities_per_sample": 2.558784965034965,
+      "avg_vi_tokens": 36.46547202797203,
+      "avg_en_tokens": 27.187062937062937
+    },
+    {
+      "dataset": "vimedner",
+      "split": "dev",
+      "samples": 1524,
+      "entities": 3977,
+      "empty_samples": 1,
+      "avg_entities_per_sample": 2.6095800524934383,
+      "avg_vi_tokens": 36.84711286089239,
+      "avg_en_tokens": 27.530839895013123
+    },
+    {
+      "dataset": "vimedner",
+      "split": "test",
+      "samples": 1525,
+      "entities": 3947,
+      "empty_samples": 0,
+      "avg_entities_per_sample": 2.5881967213114754,
+      "avg_vi_tokens": 36.28065573770492,
+      "avg_en_tokens": 27.049180327868854
+    },
+    {
+      "dataset": "vimq",
+      "split": "train",
+      "samples": 7000,
+      "entities": 11926,
+      "empty_samples": 175,
+      "avg_entities_per_sample": 1.7037142857142857,
+      "avg_vi_tokens": 14.234142857142857,
+      "avg_en_tokens": 12.758
+    },
+    {
+      "dataset": "vimq",
+      "split": "dev",
+      "samples": 1000,
+      "entities": 1725,
+      "empty_samples": 19,
+      "avg_entities_per_sample": 1.725,
+      "avg_vi_tokens": 14.194,
+      "avg_en_tokens": 12.774
+    },
+    {
+      "dataset": "vimq",
+      "split": "test",
+      "samples": 1000,
+      "entities": 1776,
+      "empty_samples": 16,
+      "avg_entities_per_sample": 1.776,
+      "avg_vi_tokens": 14.7,
+      "avg_en_tokens": 13.312
+    }
+  ],
+  "labels": [
+    {
+      "dataset": "vimedner",
+      "split": "dev",
+      "label": "CAUSE",
+      "count": 300
+    },
+    {
+      "dataset": "vimedner",
+      "split": "dev",
+      "label": "DIAGNOSTIC",
+      "count": 291
+    },
+    {
+      "dataset": "vimedner",
+      "split": "dev",
+      "label": "DISEASE",
+      "count": 1882
+    },
+    {
+      "dataset": "vimedner",
+      "split": "dev",
+      "label": "SYMPTOM",
+      "count": 804
+    },
+    {
+      "dataset": "vimedner",
+      "split": "dev",
+      "label": "TREATMENT",
+      "count": 700
+    },
+    {
+      "dataset": "vimedner",
+      "split": "test",
+      "label": "CAUSE",
+      "count": 309
+    },
+    {
+      "dataset": "vimedner",
+      "split": "test",
+      "label": "DIAGNOSTIC",
+      "count": 318
+    },
+    {
+      "dataset": "vimedner",
+      "split": "test",
+      "label": "DISEASE",
+      "count": 1892
+    },
+    {
+      "dataset": "vimedner",
+      "split": "test",
+      "label": "SYMPTOM",
+      "count": 755
+    },
+    {
+      "dataset": "vimedner",
+      "split": "test",
+      "label": "TREATMENT",
+      "count": 673
+    },
+    {
+      "dataset": "vimedner",
+      "split": "train",
+      "label": "CAUSE",
+      "count": 947
+    },
+    {
+      "dataset": "vimedner",
+      "split": "train",
+      "label": "DIAGNOSTIC",
+      "count": 892
+    },
+    {
+      "dataset": "vimedner",
+      "split": "train",
+      "label": "DISEASE",
+      "count": 5611
+    },
+    {
+      "dataset": "vimedner",
+      "split": "train",
+      "label": "SYMPTOM",
+      "count": 2402
+    },
+    {
+      "dataset": "vimedner",
+      "split": "train",
+      "label": "TREATMENT",
+      "count": 1857
+    },
+    {
+      "dataset": "vimq",
+      "split": "dev",
+      "label": "DRUG",
+      "count": 105
+    },
+    {
+      "dataset": "vimq",
+      "split": "dev",
+      "label": "MEDICAL_PROCEDURE",
+      "count": 233
+    },
+    {
+      "dataset": "vimq",
+      "split": "dev",
+      "label": "SYMPTOM_AND_DISEASE",
+      "count": 1387
+    },
+    {
+      "dataset": "vimq",
+      "split": "test",
+      "label": "DRUG",
+      "count": 119
+    },
+    {
+      "dataset": "vimq",
+      "split": "test",
+      "label": "MEDICAL_PROCEDURE",
+      "count": 238
+    },
+    {
+      "dataset": "vimq",
+      "split": "test",
+      "label": "SYMPTOM_AND_DISEASE",
+      "count": 1419
+    },
+    {
+      "dataset": "vimq",
+      "split": "train",
+      "label": "DRUG",
+      "count": 732
+    },
+    {
+      "dataset": "vimq",
+      "split": "train",
+      "label": "MEDICAL_PROCEDURE",
+      "count": 1623
+    },
+    {
+      "dataset": "vimq",
+      "split": "train",
+      "label": "SYMPTOM_AND_DISEASE",
+      "count": 9571
+    }
+  ],
+  "top_terms": [
+    {
+      "dataset": "vimedner",
+      "label": "TREATMENT",
+      "term": "phẫu thuật",
+      "count": 432
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "ung thư",
+      "count": 367
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "mang thai",
+      "count": 256
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "nhiễm trùng",
+      "count": 205
+    },
+    {
+      "dataset": "vimq",
+      "label": "MEDICAL_PROCEDURE",
+      "term": "uống thuốc",
+      "count": 158
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "khó thở",
+      "count": 144
+    },
+    {
+      "dataset": "vimedner",
+      "label": "CAUSE",
+      "term": "vi khuẩn",
+      "count": 139
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "sốt",
+      "count": 137
+    },
+    {
+      "dataset": "vimedner",
+      "label": "TREATMENT",
+      "term": "xạ trị",
+      "count": 132
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "suy tim",
+      "count": 124
+    },
+    {
+      "dataset": "vimq",
+      "label": "MEDICAL_PROCEDURE",
+      "term": "tiêm",
+      "count": 118
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "viêm gan B",
+      "count": 111
+    },
+    {
+      "dataset": "vimedner",
+      "label": "SYMPTOM",
+      "term": "chảy máu",
+      "count": 108
+    },
+    {
+      "dataset": "vimedner",
+      "label": "SYMPTOM",
+      "term": "sốt",
+      "count": 103
+    },
+    {
+      "dataset": "vimedner",
+      "label": "TREATMENT",
+      "term": "kháng sinh",
+      "count": 99
+    },
+    {
+      "dataset": "vimq",
+      "label": "MEDICAL_PROCEDURE",
+      "term": "phẫu thuật",
+      "count": 98
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "ung thư đại tràng",
+      "count": 95
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "rung nhĩ",
+      "count": 93
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "ho",
+      "count": 93
+    },
+    {
+      "dataset": "vimedner",
+      "label": "SYMPTOM",
+      "term": "đau",
+      "count": 92
+    },
+    {
+      "dataset": "vimq",
+      "label": "DRUG",
+      "term": "thuốc tránh thai",
+      "count": 92
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "thai nhi",
+      "count": 89
+    },
+    {
+      "dataset": "vimq",
+      "label": "MEDICAL_PROCEDURE",
+      "term": "xét nghiệm",
+      "count": 82
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "tăng huyết áp",
+      "count": 80
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "đau đầu",
+      "count": 80
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DIAGNOSTIC",
+      "term": "nội soi",
+      "count": 78
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "mệt mỏi",
+      "count": 77
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "chóng mặt",
+      "count": 72
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "bệnh ung thư",
+      "count": 71
+    },
+    {
+      "dataset": "vimedner",
+      "label": "SYMPTOM",
+      "term": "khó thở",
+      "count": 70
+    },
+    {
+      "dataset": "vimedner",
+      "label": "SYMPTOM",
+      "term": "mệt mỏi",
+      "count": 70
+    },
+    {
+      "dataset": "vimq",
+      "label": "MEDICAL_PROCEDURE",
+      "term": "mổ",
+      "count": 69
+    },
+    {
+      "dataset": "vimedner",
+      "label": "SYMPTOM",
+      "term": "đau bụng",
+      "count": 68
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DIAGNOSTIC",
+      "term": "xét nghiệm máu",
+      "count": 68
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "đột quỵ",
+      "count": 68
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DIAGNOSTIC",
+      "term": "siêu âm",
+      "count": 67
+    },
+    {
+      "dataset": "vimedner",
+      "label": "TREATMENT",
+      "term": "hóa trị",
+      "count": 67
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "buồn nôn",
+      "count": 65
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "đau bụng",
+      "count": 65
+    },
+    {
+      "dataset": "vimedner",
+      "label": "SYMPTOM",
+      "term": "khó chịu",
+      "count": 63
+    },
+    {
+      "dataset": "vimedner",
+      "label": "SYMPTOM",
+      "term": "rối loạn nhịp tim",
+      "count": 63
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "dị ứng",
+      "count": 63
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "bệnh crohn",
+      "count": 62
+    },
+    {
+      "dataset": "vimedner",
+      "label": "CAUSE",
+      "term": "virus",
+      "count": 62
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "hội chứng ruột kích thích",
+      "count": 61
+    },
+    {
+      "dataset": "vimedner",
+      "label": "SYMPTOM",
+      "term": "căng thẳng",
+      "count": 61
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "bệnh tim",
+      "count": 61
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "có thai",
+      "count": 61
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "tiêu chảy",
+      "count": 60
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "ung thư thực quản",
+      "count": 58
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DIAGNOSTIC",
+      "term": "sinh thiết",
+      "count": 58
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "rối loạn ăn uống",
+      "count": 57
+    },
+    {
+      "dataset": "vimq",
+      "label": "MEDICAL_PROCEDURE",
+      "term": "tiêm phòng",
+      "count": 57
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "bệnh trĩ",
+      "count": 56
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "Đau đầu",
+      "count": 56
+    },
+    {
+      "dataset": "vimedner",
+      "label": "CAUSE",
+      "term": "chấn thương",
+      "count": 55
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "bầu",
+      "count": 55
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DIAGNOSTIC",
+      "term": "mri",
+      "count": 54
+    },
+    {
+      "dataset": "vimedner",
+      "label": "CAUSE",
+      "term": "cục máu đông",
+      "count": 54
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "HIV",
+      "count": 53
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "ù tai",
+      "count": 51
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "tiểu đường",
+      "count": 51
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "đi ngoài",
+      "count": 51
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "tiêu chảy",
+      "count": 50
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "ung thư dạ dày",
+      "count": 50
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "ung thư vòm họng",
+      "count": 50
+    },
+    {
+      "dataset": "vimedner",
+      "label": "SYMPTOM",
+      "term": "nôn",
+      "count": 50
+    },
+    {
+      "dataset": "vimedner",
+      "label": "SYMPTOM",
+      "term": "ù tai",
+      "count": 50
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "xơ gan",
+      "count": 49
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "rubella",
+      "count": 49
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "táo bón",
+      "count": 49
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "mất ngủ",
+      "count": 48
+    },
+    {
+      "dataset": "vimedner",
+      "label": "TREATMENT",
+      "term": "hóa chất",
+      "count": 47
+    },
+    {
+      "dataset": "vimedner",
+      "label": "TREATMENT",
+      "term": "thuốc kháng sinh",
+      "count": 47
+    },
+    {
+      "dataset": "vimq",
+      "label": "DRUG",
+      "term": "vắc-xin",
+      "count": 47
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "nhồi máu cơ tim",
+      "count": 46
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "Mang thai",
+      "count": 46
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DIAGNOSTIC",
+      "term": "điện tâm đồ",
+      "count": 45
+    },
+    {
+      "dataset": "vimedner",
+      "label": "SYMPTOM",
+      "term": "buồn nôn",
+      "count": 45
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "ung thư gan",
+      "count": 44
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "đái tháo đường",
+      "count": 44
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "ung thư tuyến tụy",
+      "count": 43
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "xơ vữa động mạch",
+      "count": 43
+    },
+    {
+      "dataset": "vimedner",
+      "label": "SYMPTOM",
+      "term": "cơn đau",
+      "count": 43
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "nhiễm trùng huyết",
+      "count": 42
+    },
+    {
+      "dataset": "vimedner",
+      "label": "SYMPTOM",
+      "term": "nhịp nhanh thất",
+      "count": 42
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "dậy thì sớm",
+      "count": 42
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "sốt rét",
+      "count": 41
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "Thai nhi",
+      "count": 41
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "uốn ván",
+      "count": 40
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "huyết áp cao",
+      "count": 40
+    },
+    {
+      "dataset": "vimedner",
+      "label": "TREATMENT",
+      "term": "aspirin",
+      "count": 40
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "sốt thấp khớp",
+      "count": 40
+    },
+    {
+      "dataset": "vimq",
+      "label": "DRUG",
+      "term": "kháng sinh",
+      "count": 40
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "đau",
+      "count": 40
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "thuỷ đậu",
+      "count": 40
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "Đau bụng",
+      "count": 39
+    },
+    {
+      "dataset": "vimedner",
+      "label": "SYMPTOM",
+      "term": "đau đầu",
+      "count": 38
+    },
+    {
+      "dataset": "vimedner",
+      "label": "DISEASE",
+      "term": "viêm phúc mạc",
+      "count": 38
+    },
+    {
+      "dataset": "vimq",
+      "label": "SYMPTOM_AND_DISEASE",
+      "term": "sinh non",
+      "count": 38
+    }
+  ]
+}
